@@ -119,7 +119,7 @@ average_plot=
 
 average_plot
 ```
-Yes, the sample average of mu across test for which the null is rejected approximately does not equal to the true value of mu,especially in the cases where the true value of mu equals to 1 and 2, which could be because of selection bias.
+Yes, the sample average of mu across tests for which the null is rejected does not approximately equal the true value of mu, especially when the true value of mu is small. This discrepancy arises due to selection bias. Tests where the null is rejected are more likely to have larger sample means (mu hat), resulting in an upward bias in the average estimate for this subset.
 
 # Problem3
 ## Import and clean data
